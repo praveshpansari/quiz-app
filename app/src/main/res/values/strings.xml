@@ -2,4 +2,7 @@
     <string name="app_name">Quiz App</string>
     <string name="welcome_text">quiz app</string>
     <string name="play_button">Play Now</string>
+    <string name="start_btn_text">Start Now</string>
+    <string name="user_name_hint">Your Name</string>
+    <string name="invalid_user_msg">Please enter your name!</string>
 </resources>

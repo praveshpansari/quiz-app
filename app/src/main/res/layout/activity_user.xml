@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA00FF"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="72sp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/user_name_hint"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:autofillHints="Name" />
+
+
+    <TextView
+        android:id="@+id/err_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#FFCCBC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/start_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="194dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/white"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/start_btn_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#8E24AA"
+        android:onClick="startQuiz"
+        android:textStyle="italic"
+        android:typeface="sans"
+        app:cornerRadius="35dp" />
+
+</LinearLayout>

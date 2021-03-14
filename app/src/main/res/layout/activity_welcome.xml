@@ -42,6 +42,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#8E24AA"
         android:textSize="22sp"
+        android:onClick="playNow"
         android:textStyle="italic"
         android:typeface="sans"
         app:cornerRadius="35dp"
