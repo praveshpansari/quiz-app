@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -15,7 +17,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void playNow(View view) {
-        Intent intent=new Intent(this,UserActivity.class);
+        Intent intent = new Intent(this, UserActivity.class);
         startActivity(intent);
     }
 }

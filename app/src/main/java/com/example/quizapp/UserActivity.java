@@ -14,6 +14,7 @@ public class UserActivity extends AppCompatActivity {
 
     EditText userName;
     TextView errMsg;
+    public static final String USERNAME = "USER_NAME";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,9 @@ public class UserActivity extends AppCompatActivity {
             errMsg.setVisibility(View.VISIBLE);
         } else {
             errMsg.setVisibility(View.INVISIBLE);
+            Intent intent = new Intent(this, QuizActivity.class);
+            intent.putExtra(USERNAME, user_name);
+            startActivity(intent);
         }
     }
 }

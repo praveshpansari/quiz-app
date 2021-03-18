@@ -4,25 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AA00FF"
+    android:background="#AB47BC"
     android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical"
     tools:context=".UserActivity">
+
+    <TextView
+        android:id="@+id/userTitle"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:text="@string/user_title"
+        android:textAlignment="center"
+        android:textColor="#FFAB91"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/user_name"
         android:layout_width="wrap_content"
         android:layout_height="72sp"
         android:layout_marginTop="50dp"
+        android:autofillHints="Name"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="@string/user_name_hint"
         android:inputType="textPersonName"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/white"
-        android:textSize="24sp"
-        android:autofillHints="Name" />
+        android:textSize="24sp" />
 
 
     <TextView
@@ -33,7 +42,6 @@
         android:textAlignment="center"
         android:textColor="#FFCCBC"
         android:textSize="18sp"
-        android:textStyle="bold"
         android:visibility="invisible" />
 
     <Button
@@ -45,12 +53,13 @@
         android:backgroundTint="@color/white"
         android:insetTop="0dp"
         android:insetBottom="0dp"
-        android:text="@string/start_btn_text"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#8E24AA"
         android:onClick="startQuiz"
-        android:textStyle="italic"
+        android:text="@string/start_btn_text"
+        android:textColor="#8E24AA"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
         android:typeface="sans"
         app:cornerRadius="35dp" />
+
 
 </LinearLayout>

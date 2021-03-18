@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AA00FF"
+    android:background="#AB47BC"
     tools:context=".WelcomeActivity">
 
     <TextView
@@ -14,7 +14,6 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/welcome_text"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
         android:textColor="@color/white"
         android:textSize="112sp"
         android:textStyle="italic"
@@ -37,12 +36,12 @@
         android:fontFamily="sans-serif-medium"
         android:insetTop="0dp"
         android:insetBottom="0dp"
+        android:onClick="playNow"
         android:text="@string/play_button"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAllCaps="false"
         android:textColor="#8E24AA"
         android:textSize="22sp"
-        android:onClick="playNow"
         android:textStyle="italic"
         android:typeface="sans"
         app:cornerRadius="35dp"

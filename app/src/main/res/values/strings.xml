@@ -2,7 +2,28 @@
     <string name="app_name">Quiz App</string>
     <string name="welcome_text">quiz app</string>
     <string name="play_button">Play Now</string>
-    <string name="start_btn_text">Start Now</string>
+    <string name="start_btn_text">Start Quiz</string>
     <string name="user_name_hint">Your Name</string>
     <string name="invalid_user_msg">Please enter your name!</string>
+    <string name="submit_btn">Finish</string>
+    <string name="lostTitle">Try Again!</string>
+    <string name="winTitle">Congratulations!</string>
+    <string name="winMsg">You did not answer all questions correctly.\nPlay again!</string>
+    <string name="lostMsg">Wow! You answered all correctly!\nPlay again!</string>
+    <string name="replay_game">Replay Game</string>
+    <string name="user_title">Hello! Nice to meet you. May we know your name?</string>
+    <string name="question_1">Question 1</string>
+    <string name="next_question_desc">Next Question</string>
+    <string name="previous_question_desc">Previous Question</string>
+    <string name="option_text">Button</string>
+    <string name="question">Question</string>
+    <string name="question_word">\"Question \"</string>
+    <string-array name="questions">
+        <item>{"question":\"Which one of the following elements occurs most abundantly in our universe?\","options":["Hydrogen","Nitrogen","Helium","Oxygen"],"answer":1}</item>
+        <item>{"question":\"Which metal is used by the jewellers to make gold and platinum ornaments heavier?\","options":["Rhodium","Iridium","Erbium","Thorium"],"answer":2}</item>
+        <item>{"question":\"Which one of the following waves are used by the common TV remote control?\","options":[\"Radio waves\","Lasers",\"Infrared waves\",\"Ultrasonic waves\"],"answer":3}</item>
+        <item>{"question":\"Which gas is safe and an effective extinguisher for all confined fires?\","options":[\"Nitrogen dioxide\",\"Carbon dioxide\",\"Sulphur dioxide\",\"Nitrous Oxide\"],"answer":2}</item>
+        <item>{"question":\"The longest fibre on the cell body of a neuron is called:\","options":["Myelin",\"Nerve endings\","Axon","Dendrites"],"answer":3}</item>
+        <item>{"question":\"What is the unit of the magnitude of the weight?\","options":[\"Distance (meter)\",\"Mass (grams)\",\"Force (Newton)\",\"None of the above\"],"answer":3}</item>
+    </string-array>
 </resources>
